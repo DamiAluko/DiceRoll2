@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+}
+
+h1 {
+  color: #ff7f50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #444444;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #ff7f50;
+}
+
+button {
+  background-color: #ff7f50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+#diceResult {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 20px;
+}
+
+#diceImages img {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#diceImages {
+  margin-top: 15px;
+}
